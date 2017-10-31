@@ -1,0 +1,13 @@
+{
+  "name": "slides-promises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "bs serve slides --port 3001"
+  },
+  "dependencies": {
+    "backslide": "^2.3.0",
+    "gh-pages": "^1.0.0"
+  }
+}
