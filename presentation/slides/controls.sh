@@ -3,7 +3,7 @@
 source ./slides.sh
 
 LAST_SLIDE=1
-SLIDE_COUNT=6
+SLIDE_COUNT=8
 
 function show_slide() {
   SLIDE_NUMBER=$1
@@ -14,19 +14,25 @@ function show_slide() {
       intro
     ;;
     2)
-      porque_promise
+      codigo_assincrono
     ;;
     3)
-      razoes_de_usar_promises
+      porque_promise
     ;;
     4)
-      o_que_e_promise
+      razoes_de_usar_promises
     ;;
     5)
-      explicando_promise
+      o_que_e_promise
     ;;
     6)
-      estados_das_promises
+      explicando_promise
+    ;;
+    7)
+      estados_da_promise
+    ;;
+    8)
+      usando_promise
     ;;
     *)
       show_slide $LAST_SLIDE
