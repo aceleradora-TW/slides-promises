@@ -6,8 +6,8 @@ try {
   db.save(carro)
   console.log('Fiat 147 está salvo no banco de dados.')
 
-  console.log('Vamos procurar outro carro no banco')
-  db.find({marca: 'Tesla'})
+  console.log('Vamos atualizar o fiat 147 no banco...')
+  db.update(carro, {valor: 1000})
 } catch (error) {
   console.log('Error! ', error.message)
 }

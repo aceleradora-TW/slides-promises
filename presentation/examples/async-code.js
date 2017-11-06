@@ -8,6 +8,6 @@ db.save(carro, (error) => error
 
 // Problemas!!!
 
-console.log('Vamos procurar outro carro no banco')
+console.log('Vamos atualizar o fiat 147 no banco...')
 
-db.find({marca: 'Tesla'})
+db.update(carro, {valor: 1000})
