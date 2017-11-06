@@ -31,4 +31,5 @@ const content = (Content, Author) => (req, res) => {
     })
     .catch(error => res.render('error', {error: error.message}))
 }
+
 module.exports = content
